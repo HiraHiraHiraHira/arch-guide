@@ -1,5 +1,7 @@
 # 架构导览与研究报告模板
 
+建议把最终成稿写入本地 Markdown 文件。若用户没有指定文件名，默认使用 `<project-name>-report.md`；项目名无法可靠判断时，使用 `architecture-report.md`。
+
 ## 写作约定
 
 - 项目内术语第一次出现时，写成 `AgentLoop（主循环）` 这种格式。

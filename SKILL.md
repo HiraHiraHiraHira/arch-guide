@@ -41,7 +41,9 @@ description: Use when users need deep technical research, architecture explanati
 5. 如果适合图示，优先给出总览图、流程图、部件表，而不是长段抽象判断。
 6. 在关键链路处提供“代码片段 + 中文解释”并排讲解。
 7. 必要时对照主流实践、官方文档、论文或成熟项目。
-8. 产出结构化文档，而不是散乱笔记。
+8. 默认把结果落成一个本地 Markdown 文档，而不是只停留在聊天回复里。
+9. 若用户没有指定文件名，默认使用 `<project-name>-report.md`；如果项目名暂时无法可靠判断，再退回 `architecture-report.md`。
+10. 最终回复要同时给出文档路径，并用一两句话概括文档已经覆盖的重点。
 
 ## 图文并茂规则
 
@@ -82,6 +84,7 @@ description: Use when users need deep technical research, architecture explanati
 7. 可行性判断
 8. 风险与未知项
 9. 最终结论
+10. 一个已经写入本地的 Markdown 报告文件；除非用户明确要求只在对话中回答，否则不要只回聊天文本
 
 ## 执行提醒
 
@@ -90,3 +93,4 @@ description: Use when users need deep technical research, architecture explanati
 - 外部来源除了说明“支持了什么”，还要说明“没有证明什么”，尤其不要把厂商文档或论文写成对当前实现的直接验收。
 - 当样本有限时，把判断收窄到“从本次引用资料看”或“在当前采样到的公开实践中”，不要擅自外推成整个行业共识。
 - 当用户要的是新人可读性，先讲“系统怎么跑”，再讲“系统为什么这样设计”。
+- 如果已经落盘成文档，聊天回复里优先报告文件路径和摘要，不要把整份长文再原样重复一遍。
