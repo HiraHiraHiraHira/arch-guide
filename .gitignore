@@ -1,0 +1,12 @@
+*.skill
+dist/
+skill-dist/
+workspace/
+*-workspace/
+iteration-*/
+feedback.json
+benchmark.json
+benchmark.md
+review.html
+*.pyc
+__pycache__/
