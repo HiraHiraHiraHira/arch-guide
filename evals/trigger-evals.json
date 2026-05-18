@@ -1,0 +1,60 @@
+{
+  "skill_name": "arch-guide",
+  "evals": [
+    {
+      "id": 101,
+      "should_trigger": true,
+      "query": "帮我看懂这个仓库，写个给新同事看的架构导览，先讲整体结构，再走一遍主链路，最后说说它为什么这么设计。"
+    },
+    {
+      "id": 102,
+      "should_trigger": true,
+      "query": "我们已经有主报告了，麻烦把认证回调这条链路单独拆出来写成一个后续专题，重点区分代码里的直接证据和你的推断。"
+    },
+    {
+      "id": 103,
+      "should_trigger": true,
+      "query": "请整理这个系统的环境变量、默认值、读取位置和影响范围，做成一份便于查阅的附录，不要重讲整个系统背景。"
+    },
+    {
+      "id": 104,
+      "should_trigger": true,
+      "query": "我有一份很散的技术研究笔记，想把它收成像样的说明文档，要求能区分直接证据、工程推断和外部支持。"
+    },
+    {
+      "id": 105,
+      "should_trigger": true,
+      "query": "能不能帮我判断这个方案的可行性和边界，别只讲态度，要把代码里直接能确认的、推断出来的、公开资料支持的分开写。"
+    },
+    {
+      "id": 111,
+      "should_trigger": true,
+      "query": "帮我介绍一下这个项目。"
+    },
+    {
+      "id": 106,
+      "should_trigger": false,
+      "query": "帮我解释一下这个函数在干嘛，顺手说下为什么这里用了 map。"
+    },
+    {
+      "id": 107,
+      "should_trigger": false,
+      "query": "这个接口 500 了，帮我直接修 bug，顺手把测试也补上。"
+    },
+    {
+      "id": 108,
+      "should_trigger": false,
+      "query": "我已经知道系统整体了，只想问一句：这个字段为什么叫 versionToken？简单说一下就行。"
+    },
+    {
+      "id": 109,
+      "should_trigger": false,
+      "query": "帮我实现一个脚本，把这个目录里的 json 合并成一个 csv。"
+    },
+    {
+      "id": 110,
+      "should_trigger": false,
+      "query": "把这段 React 代码重构一下，减少重复，别写报告。"
+    }
+  ]
+}

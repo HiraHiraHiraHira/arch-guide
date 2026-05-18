@@ -19,40 +19,14 @@
 
 ## 提交前检查
 
-### 1. 结构检查
+先看：
 
-```powershell
-python <path-to-skill-creator>\scripts\quick_validate.py `
-  <path-to-skills>\arch-guide
-```
-
-### 2. 内容检查
-
-至少用 [evals/evals.json](./evals/evals.json) 里的 1 到 3 个固定提示做一次回放。
-
-重点观察：
-
-- 有没有总览图
-- 有没有主链路讲解
-- 有没有证据分层
-- 有没有 AI 套话回潮
-- 有没有重新冒出“本文遵守……”这类元说明
-
-### 3. 分层检查
-
-确认下面这条边界还成立：
-
-- `SKILL.md` 和 `references/`：偏运行时指导
-- `README / CONTRIBUTING / RELEASING / evals/`：偏维护与协作
+- [docs/maintainers/architecture.md](./docs/maintainers/architecture.md)
+- [docs/maintainers/checklist.md](./docs/maintainers/checklist.md)
 
 ## 什么时候应该加新 eval
 
-下面几种情况，应该新增或修改固定测试题：
-
-- 你新增了一类明确能力
-- 你修掉了一个反复出现的问题
-- 你改变了输出风格的主约束
-- 你发现旧测试已经不能区分“变好”和“变差”
+按 [docs/maintainers/checklist.md](./docs/maintainers/checklist.md) 的规则判断。
 
 ## 不建议的改法
 

@@ -4,17 +4,16 @@
 
 ## 发布前
 
+发布前先完成：
+
+- [docs/maintainers/checklist.md](./docs/maintainers/checklist.md)
+
+最低要求仍然是：
+
 1. 确认 `SKILL.md` 已更新
 2. 确认固定测试题仍然贴合当前 skill 目标
 3. 跑一次结构校验
 4. 至少做一轮人工内容检查
-
-结构校验命令：
-
-```powershell
-python <path-to-skill-creator>\scripts\quick_validate.py `
-  <path-to-skills>\arch-guide
-```
 
 ## 打包
 
